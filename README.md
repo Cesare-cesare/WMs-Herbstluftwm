@@ -34,7 +34,7 @@ Este arquivo pode ser dividido em 3 partes simples
 	Primeira	
 		Os programas que iniciam com o sistema
 			Dentro deste bloco voce deve por os programas que
-			deseja que iniciem no moento do boot de maneira altomatica
+			deseja que iniciem no momento do boot de maneira altomatica
 
 	Segundo		
 		Os atalhos do teclado
