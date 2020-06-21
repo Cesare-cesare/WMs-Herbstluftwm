@@ -30,7 +30,16 @@ Com um editor de textos de sua preferencia, edite o arquivo que estara contido d
 com o nome de autostart.
 
 Este arquivo pode ser dividido em 3 partes simples
-	Primeira	Os programas que iniciam com o sistema
-	Segundo		Os atalhos do teclado
-	Terceio		Os temas das janelas
+	
+	Primeira	
+		Os programas que iniciam com o sistema
+			Dentro deste bloco voce deve por os programas que
+			deseja que iniciem no moento do boot de maneira altomatica
+
+	Segundo		
+		Os atalhos do teclado
+			Neste bloco, voce deve criar ou editar os atalhos do teclado de acordo com o seu uso
+	Terceio		
+		Os temas das janelas
+			Neste bloco, voce pode mudar as cores e o comportamento das janelas.
 
