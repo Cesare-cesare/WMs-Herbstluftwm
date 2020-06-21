@@ -30,7 +30,7 @@ Com um editor de textos de sua preferencia, edite o arquivo que estara contido d
 com o nome de autostart.
 
 Este arquivo pode ser dividido em 3 partes simples
-	Primeira	- Os programas que iniciam com o sistema
-	Segundo		- Os atalhos do teclado
-	Terceio		- Os temas das janelas
+	Primeira	Os programas que iniciam com o sistema
+	Segundo		Os atalhos do teclado
+	Terceio		Os temas das janelas
 
