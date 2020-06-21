@@ -37,11 +37,33 @@ Este arquivo pode ser dividido em 3 partes simples
 		Os programas que iniciam com o sistema
 			Dentro deste bloco voce deve por os programas que
 			deseja que iniciem no momento do boot de maneira altomatica
+		
+		Exemplos
+				xsetroot -solid '#5A8E3A'
+				setxkbmap -model abnt2 -layout br -variant abnt2 &
+				sh ~/.fehbg &
+				polybar -r mybar & 
 
 	Segundo		
 		Os atalhos do teclado
 			Neste bloco, voce deve criar ou editar os atalhos do teclado de acordo com o seu uso
+		
+		Exemplos
+				hc keybind $Mod-Shift-c spawn chromium
+				hc keybind $Mod-Shift-f spawn chromium faceboock.com
+				hc keybind $Mod-Shift-y spawn chromium youtube.com
+				hc keybind $Mod-Shift-n spawn nemo
+				hc keybind Print spawn scrot 'My_i3-gaps_%a-%d%b%y_%H.%M.png' -e 'viewnior ~/$f'
+				hc keybind $Mod-Shift-s spawn subl
 	Terceio		
 		Os temas das janelas
 			Neste bloco, voce pode mudar as cores e o comportamento das janelas.
-
+			
+			Exemplos
+				hc attr theme.tiling.reset 1
+				hc attr theme.floating.reset 1
+				hc set frame_border_active_color '#FF4040'
+				hc set frame_border_normal_color '#ff0000'
+				hc set frame_bg_normal_color '#FF4040'
+				hc set frame_bg_active_color '#FF4040'
+				hc set frame_border_width 0
