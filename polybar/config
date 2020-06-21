@@ -1,0 +1,183 @@
+[colors]
+background = #aaaaa
+background-alt = #444
+foreground = #dfdfdf
+foreground-alt = #555
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+
+[bar/mybar]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 98%
+height = 22
+offset-x = 1%
+offset-y = 1%
+radius = 2.0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 1
+line-color = #f00
+
+border-size = 1
+border-color = #00000000
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = Ubuntu:style=Bold:size=10;3:antialias=true
+font-1 = Iosevka Nerd Font:style=Medium:size=15;4
+font-2 = Ubuntu:size=15;3:antialias=true
+
+modules-left = arch Arch kernel Kernel
+modules-center = work
+modules-right = home Home root Root ups Ups clock Clock
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+tray-position = right
+
+#======================
+#     MODULES 
+#======================
+
+
+[module/arch]
+type = custom/text
+content = 
+content-background = #004769
+content-padding = 1
+
+[module/Arch]
+type = custom/text
+content = Arch Linux
+content-background = #006595
+content-font = 3
+content-padding = 1
+
+[module/kernel]
+type = custom/text
+content = 
+content-foreground = #ffffff
+content-background = #004769
+content-padding = 1
+
+[module/Kernel]
+type = custom/script
+exec = uname -r | sed 's/-a.*//g' 
+label-padding = 2
+label-font = 3
+label-background = #006595
+
+[module/clock]
+type = custom/text
+content = 
+content-foreground = 
+content-background = 
+content-padding = 2
+content-underline = #ff0000
+
+[module/Clock]
+type = custom/script
+exec = date '+%H:%M'
+label-background = 
+label-padding = 1
+label-font = 3
+label-underline = #ff0000
+
+[module/ups]
+type = custom/text
+content = 
+content-foreground = 
+content-background = 
+content-padding = 2
+content-underline = #FF4D00
+
+[module/Ups]
+type = custom/script
+exec = checkupdates 2> /dev/null | wc -l
+label-background = #
+label-padding = 1
+label-font = 3
+label-underline = #FF4D00
+
+[module/work]
+type = internal/xworkspaces
+
+pin-workspaces = true
+enable-click = true
+enable-scroll = true
+
+format = <label-state>
+
+label-monitor = %name%
+label-active-foreground = #ffffff
+label-active-background = #1c1c1c
+label-active-underline = #FF0000
+label-active-overline = #60FF00
+label-occupied-foreground = #00ffff
+label-occupied-background = #00ffff
+label-urgent-foreground = #ff0000
+label-empty-foreground = #2c2c2c
+
+label-active-font = 3
+
+label-active-padding = 5
+label-urgent-padding = 1
+label-occupied-padding = 5
+label-empty-padding = 2
+
+[module/root]
+type = custom/text
+content =  Root
+content-foreground = 
+content-background = 
+content-padding = 2
+content-underline = #FF9900
+
+[module/Root]
+type = custom/script
+exec = df -ah | grep /dev/sda | awk '{print $5}'
+label-background = #
+label-foreground = #
+label-font = 3
+label-padding = 1
+label-underline = #FF9900
+
+[module/home]
+type = custom/text
+content =  Home
+content-foreground = 
+content-background = 
+content-padding = 2
+content-underline = #FFE500
+
+[module/Home]
+type = custom/script
+exec = df -ah | grep /dev/sdb | awk '{print $5}'
+label-background = #
+label-foreground = #
+label-font = 3
+label-padding = 1
+label-underline = #FFE500
+
+
+[settings]
+;screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = true
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+

@@ -1,6 +1,16 @@
 # WMs-Herbstluftwm
 Configuraçoes pessoais da WM "herbstluftwm", juntamente com suas respectivas ferramentas e dependencias
 
+# Aplicaçoẽs usadas
+			Rofi
+			Polybar
+			zsh
+			ranger
+			feh
+			viewnior
+			scrot
+			mplayer
+
 # Apresentação 
 
 ![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Wallpapers/wall.png)
@@ -67,3 +77,24 @@ Este arquivo pode ser dividido em 3 partes simples
 				hc set frame_bg_normal_color '#FF4040'
 				hc set frame_bg_active_color '#FF4040'
 				hc set frame_border_width 0
+
+# Como usar essas configuraçoes das imagens?
+
+Para usar as configuraçoes das imagens, voce deve seguir alguns passos bem simples.
+
+Primeiro. Clone o repositorio
+
+Segundo. Mover os diretorios
+			cd WMs-Herbstluftwm
+			cp -r herbstluftwm ~/.config
+			cp -r rofi ~/.config
+			cp -r polybar ~/.config
+			cp -r rofi ~/.config
+
+Terceiro. Mover as fontes
+			cd fonts
+			cp -r * /usr/share/fonts
+
+Quarto. Wallpapers
+			Se voce quiser usar as imagens da customização,
+			basta ter o feh instalado e usar umas delas.
