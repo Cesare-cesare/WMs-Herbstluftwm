@@ -3,13 +3,25 @@ Configuraçoes pessoais da WM "herbstluftwm", juntamente com suas respectivas fe
 
 # Aplicaçoẽs usadas
 			Rofi
+		Para os menus
 			Polybar
+		Para a barra
 			zsh
+		Shell do terminal
 			ranger
+		Navegador de arquivos,via terminal
 			feh
+		Exibir imagens e setar planos de fundo
 			viewnior
+		Exibir imagens derivadas de prints da tela
 			scrot
+		Tirar prints da tela
 			mplayer
+		Reproduzir imagens
+			ffmpegthumbnailer
+		Exibir imagens de videos dentro do ranger
+			w3m
+		Exibir imagens de arquivos dentro do ranger
 
 # Apresentação 
 
@@ -102,3 +114,35 @@ Este arquivo pode ser dividido em 3 partes simples
 	Quarto. Wallpapers
 			Se voce quiser usar as imagens da customização,
 			basta ter o feh instalado e usar umas delas.
+
+# Rofi 
+
+O rofi e usado para abrir dois menus.
+Um de programas e outro para as janelas abertas
+
+Para usar o menu tecle Super+d
+Para usar o menu de janelas tecle Super+Tab 
+
+# Menu de aplicativos
+
+![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Examples/example004.jpg)
+
+# Menu de janelas abertas
+
+![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Examples/example003.jpg)
+
+# Polybar
+
+O polybar e uma barra, que pode ser usada de varias formas.
+Para exibir informaçoes do sistema, ou ate mesmo para abrir aplicaçoes
+
+![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Examples/example002.jpg)
+
+Caso voce nao saiba como instalar o polybar. Basta clonala do repositorio AUR com 
+git clone https://aur.archlinux.org/polybar.git
+
+Em seguida entra no diretorio pertencente ao polybar e dar o comando
+
+	makepkg -si
+
+Entao e so aguardar a instalaçao.
