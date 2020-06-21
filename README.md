@@ -27,6 +27,8 @@ Ele é configurado em tempo de execução através de chamadas ipc do herbstclie
 
 # Instalação
 
+![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Examples/image.png)
+
 A instalação e a configuração seguem duas etapas simples.
 
 	Primeira etapa. A instalação
@@ -37,6 +39,8 @@ A instalação e a configuração seguem duas etapas simples.
 		cp /etc/xdg/herbstluftwm .config/herbstluftwm
 
 # A configuração em si.
+
+![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Examples/image2.png)
 
 Com um editor de textos de sua preferencia, edite o arquivo que estara contido dentro do .config/herbstluftwm,
 com o nome de autostart.
