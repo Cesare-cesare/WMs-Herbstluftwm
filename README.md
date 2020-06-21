@@ -3,6 +3,8 @@ Configuraçoes pessoais da WM "herbstluftwm", juntamente com suas respectivas fe
 
 # Apresentação 
 
+![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Wallpapers/wall.png)
+
 O herbstluftwm é um gerenciador de janelas lado a lado para o X11 usando o Xlib. Suas principais características podem ser descritas com:
 
 o layout é baseado na divisão de quadros em sub-quadros que podem ser divididos novamente ou preenchidos com janelas (semelhante ao i3 / ou musca)
