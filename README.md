@@ -47,7 +47,7 @@ A instalação e a configuração seguem duas etapas simples.
 		sudo pacman -S herbstluftwm
 
 	Segunda etapa. A configuração
-		mkdir .config herbstluftwm
+		mkdir .config/herbstluftwm
 		cp /etc/xdg/herbstluftwm .config/herbstluftwm
 
 # A configuração em si.
