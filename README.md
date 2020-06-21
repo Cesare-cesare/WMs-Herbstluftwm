@@ -80,21 +80,21 @@ Este arquivo pode ser dividido em 3 partes simples
 
 # Como usar essas configuraçoes das imagens?
 
-Para usar as configuraçoes das imagens, voce deve seguir alguns passos bem simples.
+	Para usar as configuraçoes das imagens, voce deve seguir alguns passos bem simples.
 
-Primeiro. Clone o repositorio
+	Primeiro. Clone o repositorio
 
-Segundo. Mover os diretorios
+	Segundo. Mover os diretorios
 			cd WMs-Herbstluftwm
 			cp -r herbstluftwm ~/.config
 			cp -r rofi ~/.config
 			cp -r polybar ~/.config
 			cp -r rofi ~/.config
 
-Terceiro. Mover as fontes
+	Terceiro. Mover as fontes
 			cd fonts
 			cp -r * /usr/share/fonts
 
-Quarto. Wallpapers
+	Quarto. Wallpapers
 			Se voce quiser usar as imagens da customização,
 			basta ter o feh instalado e usar umas delas.
