@@ -1,0 +1,31 @@
+* {
+	icon-font:	"Font Awesome 5 Brands 40";
+}
+
+
+
+* {
+  	background-color: #121212;
+  	text-color: #ffffff;
+}
+
+element {
+	font: @icon-font;
+	border: 7px;
+  	padding: 40px 40px 40px 40px;
+  	background-color: #1c1c1c;
+}
+
+element.selected {
+  	background-color: #00ffff;
+  	text-color: #ffffff;
+}
+
+window {
+	width: 44%;
+  	height: 20%;
+}
+
+listview {
+	layout: horizontal;
+}
