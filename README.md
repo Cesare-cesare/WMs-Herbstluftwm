@@ -119,11 +119,12 @@ Este arquivo pode ser dividido em 3 partes simples
 
 # Rofi 
 
-O rofi e usado para abrir dois menus.
+O rofi e usado para abrir tres menus.
 Um de programas e outro para as janelas abertas
 
 Para usar o menu tecle Super+d
 Para usar o menu de janelas tecle Super+Tab 
+Para usar o PoweMenu tecle Super+F1
 
 # Menu de aplicativos
 
@@ -132,6 +133,10 @@ Para usar o menu de janelas tecle Super+Tab
 # Menu de janelas abertas
 
 ![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Examples/example003.jpg)
+
+# PowerMenu
+
+![alt text](https://github.com/Cesare-cesare/WMs-Herbstluftwm/blob/master/Examples/example006.png)
 
 # Polybar
 
