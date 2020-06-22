@@ -2,6 +2,8 @@
 Configuraçoes pessoais da WM "herbstluftwm", juntamente com suas respectivas ferramentas e dependencias
 
 # Aplicaçoẽs usadas
+			picom
+		Para a transparencia
 			Rofi
 		Para os menus
 			Polybar
